@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    /* min-width: 100vw;
+    overflow: hidden; */
+    background-color: aliceblue;
+   /*  background-image: url(),linear-gradient(royalblue,pink,rgb(250, 163, 13));
+    background-repeat: no-repeat; */ 
+
+}
+/* 
+.moon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.cloud:nth-child(even){
+    min-width: 10vw;
+    z-index: 1;
+    font-size: 20vw;
+    position: sticky;
+}
+.cloud:nth-child(odd){
+    font-size: 20vw;
+    position: sticky;
+    min-width: 10vw;
+    z-index: 1;
+}
+
+.moon img{
+    border: none;
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+}
+
+
+.image{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+img{
+    display: block;
+} 
+.nowrap{
+    white-space: nowrap;
+}
+.screen{
+    position: absolute;
+    left: 9%;
+    font-size: 2cqmin;
+    color: whitesmoke;
+}
+.image img{
+    width: 35%;
+    height: auto;
+}
+
+.container{
+    background-color: rgb(251,210,156);
+    background-image: url('../images/2u9vxf6psc25d15m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-pic-figure{
+    width: 35%
+}
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+.image1{
+    border-bottom: 2px solid blue;
+    min-height: 50vh;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 2rem;
+    background-color: hsla(0, 0%, 0%, 0.484);
+   
+}
+
+.h1{
+    font-size: 4vmax;
+    color: black;
+    text-shadow: 1px 1px 3px #f9f909;
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 10%;
+    text-align: center;
+} */
+
+.marvel{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.804);
+}
+
+.hawk{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/hawk.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.tony{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/tony.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.cap{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/captain.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.thor{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/thor.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right top;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.nat{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/nat.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.hulk{
+    font-weight: 800;
+    font-size: 20rem;
+    text-align: center;
+    background-image: url("../images/hulk.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;   
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #475569);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header,nav, main, footer{
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    text-align: center;
+}
+
+header, footer{
+    position: sticky;
+    background-color: rgb(1, 46, 1);
+    color: aliceblue;   
+}
+
+header{
+    top: 0;
+}
+nav{
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+/* small */
+@media screen and (min-width: 576px){
+    body{
+        background-color: rgb(2, 157, 2);
+        background-image: radial-gradient(whitesmoke,#03aa11);  
+    }
+    
+}
+/* medium */
+@media screen and (min-width: 768px){
+    body{
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke,gold);  
+    }
+    
+}
+/* large */
+@media screen and (min-width: 992px){
+    body{
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke,firebrick);  
+    }
+    
+}
+/* extra large */
+@media screen and (min-width: 1200px){
+    body{
+        background-color: rgb(40, 7, 226);
+        background-image: radial-gradient(whitesmoke,rgb(29, 12, 222));  
+    }
+    
+}
+/*2x extra large */
+@media screen and (min-width: 1200px){
+    body{
+        background-color: rgb(226, 7, 146);
+        background-image: radial-gradient(whitesmoke,rgb(222, 12, 170));  
+    }
+    
+}
+/* mobile landscape */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4){
+    body{
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke,dodgerblue);  
+    }
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    nav{
+        display: none;
+    }
+}
