@@ -1,0 +1,16 @@
+
+.tooltip{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: aqua;
+}
+button{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: aquamarine;
+}
+.tooltip::after{
+    
+}
